@@ -24,10 +24,10 @@ The functions used in the source code are simple and easy to understand.
 The ones listed below have been used to produce background with color effects. 
 They are described in the source code with comments.
 
-**void SetColor(int ForgC)**.
-**void ClearConsoleToColors(int ForgC, int BackC)**.
-**void SetColorAndBackground(int ForgC, int BackC)**.
-**void gotoxy (int x, int y)** .
+* **void SetColor(int ForgC)**.
+* **void ClearConsoleToColors(int ForgC, int BackC)**.
+* **void SetColorAndBackground(int ForgC, int BackC)**.
+* **void gotoxy (int x, int y)** .
  You need to understand this function as it is an important one used in this Calendar in C language. You can find this function used in many C projects. 
 This function allows you to print text in any place of screen. 
 Using this function in Code::Blocks requires coding, but it can be directly used in Turbo C. 
